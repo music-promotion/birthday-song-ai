@@ -1,43 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap');
+@import "tailwindcss";
 @import "tailwindcss";
 
-:root {
-  /* Design System Colors */
-  --color-primary: #1E1B4B;
-  --color-secondary: #4338CA;
-  --color-cta: #22C55E;
-  --color-background: #0F0F23;
-  --color-text: #F8FAFC;
-  
-  /* Keep pink/yellow theme for light mode */
-  --color-pink: #ec4899;
-  --color-yellow: #fbbf24;
-  
-  /* Spacing */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --space-3xl: 4rem;
-  
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-  --shadow-xl: 0 20px 25px rgba(0,0,0,0.15);
-}
 
-body {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: var(--color-text);
-  background: var(--color-background);
-}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Righteous', cursive;
-}
 
 /* Smooth transitions */
 * {
